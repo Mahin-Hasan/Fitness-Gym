@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Roboto:wght@100&display=swap');
+
+
+/* 
+Navbar
+*/
+
+.nav-height{
+    height: 70px;;
+}
+.remove-default{
+    padding: 0px;
+    margin: 0px;
+}

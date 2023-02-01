@@ -5,10 +5,44 @@
 Navbar
 */
 
-.nav-height{
-    height: 70px;;
+.nav-height {
+    height: 70px;
+    ;
 }
-.remove-default{
+
+.remove-default {
     padding: 0px;
     margin: 0px;
+}
+
+.big-text{
+    font-size: 60px;
+}
+.background-image{
+    background-image: url(images/body_bg.jpg);
+    background-size: cover;
+}
+
+.btn-style {
+    color: #111111;
+    font-weight: bold;
+    height: 56px;
+    width: 202px;
+    border: 2px solid #ffc63d;
+    background: transparent;
+}
+.yellow-background{
+    background-color: #ffc63d;
+
+}
+.btn-style:hover {
+    /* opacity: 1; */
+    color: #111111;
+    background-color: white;
+    border: 2px solid white;
+
+}
+.make-absolute{
+    position: absolute;
+    bottom: 100px;
 }

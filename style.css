@@ -7,7 +7,8 @@ Navbar
 
 .nav-height {
     height: 70px;
-    ;
+
+
 }
 
 .remove-default {
@@ -15,34 +16,185 @@ Navbar
     margin: 0px;
 }
 
-.big-text{
+.big-text {
     font-size: 60px;
 }
-.background-image{
-    background-image: url(images/body_bg.jpg);
+
+.background-image {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), #000000f1), url(images/banner_bg.jpg);
+
     background-size: cover;
+    max-height: 907px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.background-imagesmall {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), #000000f1), url(images/banner_bg.jpg);
+
+    background-size: cover;
+    max-height: 907px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.tune-h1 {
+    font-weight: 700;
+    font-size: 3.75rem;
+    text-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
+}
+
+.set-lineheight {
+    line-height: 25px;
+}
+
+.size-bannerimg {
+    width: 141px;
+}
+
+.make-smallicon {
+    width: 72px;
+
 }
 
 .btn-style {
     color: #111111;
     font-weight: bold;
-    height: 56px;
-    width: 202px;
+    height: 62px;
+    width: 213px;
     border: 2px solid #ffc63d;
     background: transparent;
 }
-.yellow-background{
+
+.yellow-background {
     background-color: #ffc63d;
 
 }
+
 .btn-style:hover {
     /* opacity: 1; */
-    color: #111111;
+    color: #111111 !important;
     background-color: white;
     border: 2px solid white;
+    transition: 0.5s;
 
 }
-.make-absolute{
-    position: absolute;
-    bottom: 100px;
+
+
+/* Join now*/
+.card-overlap {
+    margin-top: -150px;
+}
+
+
+
+
+/* work hard banner */
+
+.workhard-banner {
+    background-image: url(images/banner_2.jpg);
+    background-size: cover;
+}
+
+.bigbtn-style {
+    color: #111111;
+    font-weight: bold;
+    height: 56px;
+    width: 202px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for responsiveness */
+
+/* media query */
+
+@media only screen and (max-width: 576px) {
+
+
+
+
+
+
+    /* .hidden-container {
+        display: block;
+    }
+
+    .hide-title {
+        display: none;
+    }
+
+    .small-title {
+        font-size: 20px;
+        margin-left: -13px;
+    }
+
+    .adjustfont-h4 {
+        font-size: 26px;
+    }
+
+    .container-image {
+        background-image: none;
+    }
+
+
+    .small-icon {
+        width: 55px;
+        height: 55px;
+    }
+    #increase_font{
+        font-size: 45px;
+    }
+    .heightonly-small{
+        height: 650px;
+    }
+    .guide-cover{
+        background-size: cover;
+        height: 272px;
+    } */
+
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .test-responsive {
+        background-color: aquamarine;
+    }
+    .background-image{
+        background-image: none;
+    }
+    #removepadding-small{
+        padding: 0px !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .test-responsive {
+        background-color: blue;
+    }
+    .background-image{
+        background-image: none;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .test-responsive {
+        background-color: red;
+    }
+    .background-image{
+        background-image: none;
+    }
+}
+@media (min-width: 993px) {
+    .test-responsive {
+        background-color: yellow;
+    }
+    .background-imagesmall{
+        background-image: none;
+    }
 }

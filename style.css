@@ -136,7 +136,7 @@ Navbar
 
 }
 
-.button-hover{
+.button-hover {
     color: #111111;
     font-weight: bold;
     height: 62px;
@@ -146,7 +146,8 @@ Navbar
     background-color: white;
     border: none;
 }
-.button-hover:hover{
+
+.button-hover:hover {
     background-color: #111111 !important;
     color: white !important;
     transition: 0.5s;
@@ -161,23 +162,57 @@ Navbar
 .settop-margin {
     margin-top: 300px;
 }
+
 /* 4 dis-aligned cards */
-.setmin-height{
+.setmin-height {
     min-height: 377px;
 }
-.setsome-margin{
+
+.setsome-margin {
     margin-top: 118px;
 }
+
 /* News letter */
-.newsletter-margin{
+.newsletter-margin {
     margin-top: -166px;
     background-color: white;
 }
-.newsletter-padding{
+
+.newsletter-padding {
     padding-top: 244px !important;
 }
-.phone-hover:hover{
+
+.phone-hover:hover {
     color: #ffc63d !important;
+}
+
+/* Membership container */
+.membership-background {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/banner_3.jpg);
+    background-size: cover;
+    height: 524px;
+    /* filter: brightness(0.65); */
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.membership-banner{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/banner_3.jpg);
+    background-size: cover;
+    height: 524px;
+    /* filter: brightness(0.65); */
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.membership-cards {
+    height: 421px;
+    /* width: 304px; */
+    margin-bottom: 50px;
+    margin-top: 64px;
+}
+
+.workhard-margin {
+    margin-top: 90px;
 }
 
 /* Media Query for responsiveness */
@@ -224,13 +259,15 @@ Navbar
     .set-image-dimension {
         margin-top: -54px !important;
     }
-    .setsome-margin{
+
+    .setsome-margin {
         margin-top: 0px !important;
     }
-    .width-adjust{
-        width: 100%!important;
+
+    .width-adjust {
+        width: 100% !important;
     }
-    
+
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -263,10 +300,11 @@ Navbar
     .set-image-dimension {
         margin-top: 0px !important;
     }
-    .setsome-margin{
+
+    .setsome-margin {
         margin-top: 0px !important;
     }
-    
+
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -295,8 +333,9 @@ Navbar
         padding-left: 46px !important;
 
     }
-    .width-adjust{
-        width: 100%!important;
+
+    .width-adjust {
+        width: 100% !important;
     }
 
 }
@@ -322,6 +361,10 @@ Navbar
         padding-bottom: 0px !important;
         padding-top: 1rem !important;
     }
+    .membership-cards{
+        height: 385px !important;
+        width: 303px !important;
+    }
 }
 
 @media (min-width: 993px) {
@@ -333,5 +376,12 @@ Navbar
     .workhard-banner {
         background-image: none;
     }
-
+    .membership-banner{
+        background-image: none;
+    }
+}
+@media (max-width: 994px){
+    .membership-background{
+        background-image: none;
+    }
 }

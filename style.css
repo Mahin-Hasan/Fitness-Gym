@@ -168,6 +168,17 @@ Navbar
 .setsome-margin{
     margin-top: 118px;
 }
+/* News letter */
+.newsletter-margin{
+    margin-top: -166px;
+    background-color: white;
+}
+.newsletter-padding{
+    padding-top: 244px !important;
+}
+.phone-hover:hover{
+    color: #ffc63d !important;
+}
 
 /* Media Query for responsiveness */
 /* media query */
@@ -215,6 +226,9 @@ Navbar
     }
     .setsome-margin{
         margin-top: 0px !important;
+    }
+    .width-adjust{
+        width: 100%!important;
     }
     
 }
@@ -280,6 +294,9 @@ Navbar
     .give-padding {
         padding-left: 46px !important;
 
+    }
+    .width-adjust{
+        width: 100%!important;
     }
 
 }

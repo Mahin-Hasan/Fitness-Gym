@@ -207,7 +207,7 @@ Navbar
 .membership-cards {
     height: 421px;
     /* width: 304px; */
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     margin-top: 64px;
 }
 
@@ -267,6 +267,9 @@ Navbar
     .width-adjust {
         width: 100% !important;
     }
+    .membership-cards {
+        margin-top: 0px !important;
+    }
 
 }
 
@@ -304,6 +307,9 @@ Navbar
     .setsome-margin {
         margin-top: 0px !important;
     }
+    .membership-cards {
+        margin-top: 0px !important;
+    }
 
 }
 
@@ -336,6 +342,9 @@ Navbar
 
     .width-adjust {
         width: 100% !important;
+    }
+    #removetop_margin{
+        margin-top: 0px;
     }
 
 }

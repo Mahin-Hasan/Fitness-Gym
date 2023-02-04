@@ -136,6 +136,39 @@ Navbar
 
 }
 
+.button-hover{
+    color: #111111;
+    font-weight: bold;
+    height: 62px;
+    width: 213px;
+    /* border: 2px solid #ffc63d; */
+    /* background: transparent; */
+    background-color: white;
+    border: none;
+}
+.button-hover:hover{
+    background-color: #111111 !important;
+    color: white !important;
+    transition: 0.5s;
+}
+
+
+/* 4 cards benefits */
+.negative-margin {
+    margin-top: -228px;
+}
+
+.settop-margin {
+    margin-top: 300px;
+}
+/* 4 dis-aligned cards */
+.setmin-height{
+    min-height: 377px;
+}
+.setsome-margin{
+    margin-top: 118px;
+}
+
 /* Media Query for responsiveness */
 /* media query */
 @media (min-width: 0px) and (max-width: 576px) {
@@ -172,12 +205,18 @@ Navbar
         padding-top: 0px !important;
         margin-top: 0px !important;
     }
+
     .give-padding {
         padding-left: 51px !important;
     }
+
     .set-image-dimension {
         margin-top: -54px !important;
     }
+    .setsome-margin{
+        margin-top: 0px !important;
+    }
+    
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -206,9 +245,14 @@ Navbar
         padding-left: 46px !important;
 
     }
+
     .set-image-dimension {
         margin-top: 0px !important;
     }
+    .setsome-margin{
+        margin-top: 0px !important;
+    }
+    
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -237,7 +281,7 @@ Navbar
         padding-left: 46px !important;
 
     }
-  
+
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
@@ -252,8 +296,14 @@ Navbar
     .card-height {
         height: 375px;
     }
+
     .set-image-dimension {
         margin-top: -48px !important;
+    }
+
+    #remove_padding {
+        padding-bottom: 0px !important;
+        padding-top: 1rem !important;
     }
 }
 
@@ -266,4 +316,5 @@ Navbar
     .workhard-banner {
         background-image: none;
     }
+
 }

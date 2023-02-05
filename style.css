@@ -32,18 +32,11 @@ Navbar
     background-position-y: 50%;
 }
 
-.background-imagesmall {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/banner_bg.jpg);
-    background-size: cover;
-    max-height: 907px;
-    background-position-x: 50%;
-    background-position-y: 50%;
-}
-
 .tune-h1 {
     font-weight: 700;
     font-size: 60px;
     text-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
+    
 }
 
 .set-lineheight {
@@ -104,15 +97,10 @@ Navbar
     max-height: 907px;
     background-position-x: 50%;
     background-position-y: 50%;
+
 }
 
-.workhard-banner {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/banner_2.jpg);
-    background-size: cover;
-    max-height: 907px;
-    background-position-x: 50%;
-    background-position-y: 50%;
-}
+
 
 .bigbtn-style {
     color: #111111;
@@ -127,8 +115,23 @@ Navbar
     width: 414px;
     height: 449px;
     margin-top: -146px;
-    padding-left: 24px;
+    /* padding-left: 24px; */
 
+}
+/* .invitinfbg-small{
+    background-image: url(images/workout_img1-s.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    
+} */
+.set-fullbg{
+    background-image: url(images/workout_img1-s.jpg) !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
 }
 
 .give-padding {
@@ -146,7 +149,10 @@ Navbar
     background-color: white;
     border: none;
 }
-
+#black_bg:hover{
+    background-color: #111111;
+    color: white !important;
+}
 .button-hover:hover {
     background-color: #111111 !important;
     color: white !important;
@@ -156,7 +162,7 @@ Navbar
 
 /* 4 cards benefits */
 .negative-margin {
-    margin-top: -228px;
+    margin-top: -287px;
 }
 
 .settop-margin {
@@ -185,32 +191,31 @@ Navbar
 .phone-hover:hover {
     color: #ffc63d !important;
 }
+.benefitmargin-small{
+    margin-bottom: 17px !important;
 
+}
 /* Membership container */
 .membership-background {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/banner_3.jpg);
     background-size: cover;
-    height: 524px;
     /* filter: brightness(0.65); */
-    background-position-x: 50%;
-    background-position-y: 50%;
-}
-.membership-banner{
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/banner_3.jpg);
-    background-size: cover;
+    /* background-position-x: 50%;
+    background-position-y: 50%; */
     height: 524px;
-    /* filter: brightness(0.65); */
-    background-position-x: 50%;
-    background-position-y: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+    object-position: 50% 0%;
 }
-
 .membership-cards {
     height: 421px;
     /* width: 304px; */
     /* margin-bottom: 50px; */
     margin-top: 64px;
 }
-
+#black_border:hover{
+    border: 2px solid black;
+}
 .workhard-margin {
     margin-top: 90px;
 }
@@ -221,10 +226,10 @@ Navbar
     .test-responsive {
         background-color: aquamarine;
     }
-
-    .background-image {
+    .invitinfbg-small{
         background-image: none;
     }
+
 
     #removepadding-small {
         padding: 0px !important;
@@ -234,10 +239,7 @@ Navbar
         font-size: 28px;
     }
 
-    .workhard-background {
-        background-image: none;
-    }
-
+ 
     .remove-icon-margin {
         margin-top: 7px !important
     }
@@ -255,7 +257,6 @@ Navbar
     .give-padding {
         padding-left: 51px !important;
     }
-
     .set-image-dimension {
         margin-top: -54px !important;
     }
@@ -270,6 +271,16 @@ Navbar
     .membership-cards {
         margin-top: 0px !important;
     }
+    .set-fullbg{
+        background-image: none !important;
+    }
+    .small-bottom-margin{
+        margin-bottom: 29px !important;
+    }
+    .button-width-small{
+        width: 100%;
+    }
+
 
 }
 
@@ -277,15 +288,6 @@ Navbar
     .test-responsive {
         background-color: blue;
     }
-
-    .background-image {
-        background-image: none;
-    }
-
-    .workhard-background {
-        background-image: none;
-    }
-
     .big-text {
         font-size: 38px;
     }
@@ -310,6 +312,12 @@ Navbar
     .membership-cards {
         margin-top: 0px !important;
     }
+    /* .set-fullbg{
+        background-image: none !important;
+    } */
+    .toggle-visibility{
+        visibility: hidden !important;
+    }
 
 }
 
@@ -317,19 +325,9 @@ Navbar
     .test-responsive {
         background-color: red;
     }
-
-    .background-image {
-        background-image: none;
-    }
-
-    .workhard-background {
-        background-image: none;
-    }
-
     .big-text {
         font-size: 51px;
     }
-
     .removemargin-small {
         padding-top: 0px !important;
         margin-top: 0px !important;
@@ -346,18 +344,26 @@ Navbar
     #removetop_margin{
         margin-top: 0px;
     }
-
+    /* .set-fullbg{
+        background-image: none !important;
+    } */
+    .toggle-visibility{
+        visibility: hidden !important;
+    }
+    .position-md-device{
+        width: 307px;
+        height: 346px;
+        margin-top: -146px;
+        /* padding-left: 24px; */
+    }
+   
 }
+
 
 @media (min-width: 993px) and (max-width: 1200px) {
     .test-responsive {
         background-color: yellow;
     }
-
-    .background-imagesmall {
-        background-image: none;
-    }
-
     .card-height {
         height: 375px;
     }
@@ -374,23 +380,29 @@ Navbar
         height: 385px !important;
         width: 303px !important;
     }
+    /* .invitinfbg-small{
+        background-image: none !important;
+    } */
+    .set-fullbg{
+        background-image: none !important;
+    }
+  
+    
 }
 
 @media (min-width: 993px) {
-
-    .background-imagesmall {
-        background-image: none;
+    /* .invitinfbg-small{
+        background-image: none !important;
+    } */
+  
+    .set-fullbg{
+        background-image: none !important;
     }
-
-    .workhard-banner {
-        background-image: none;
-    }
-    .membership-banner{
-        background-image: none;
+    .clear-padding-lg{
+        padding-left: 24px !important;
     }
 }
 @media (max-width: 994px){
-    .membership-background{
-        background-image: none;
-    }
+    
 }
+

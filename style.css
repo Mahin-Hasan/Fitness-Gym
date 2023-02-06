@@ -460,6 +460,11 @@ Navbar
 
     .button-width-small {
         width: 100%;
+        margin-top: 10px;
+
+    }
+    .news-small-padding{
+        padding-left: 27px;
     }
 
     .amenities-margin {

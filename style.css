@@ -317,6 +317,43 @@ Navbar
 .icon-size{
     width: 106px;
 }
+/* Trainer Container */
+.trainer-bg1{
+    background-image:url(images/trainer_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    min-height: 323px;
+}
+.trainer-bg2{
+    background-image:url(images/trainer_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    min-height: 323px;
+}
+.trainer-bg3{
+    background-image:url(images/trainer_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    min-height: 323px;
+}
+.trainer-bg4{
+    background-image:url(images/trainer_4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    min-height: 323px;
+}
+.trainer-padding{
+    padding-left: 70px;
+}
+
 /* Media Query for responsiveness */
 /* media query */
 @media (min-width: 0px) and (max-width: 576px) {
@@ -435,7 +472,18 @@ Navbar
     .amenities-paragrapghpadding {
         padding: 0px 10px 0px !important;
     }
-
+    .trainer-bg1 {
+        min-height: 465px !important;
+    }
+    .trainer-bg2 {
+        min-height: 465px !important;
+    }
+    .trainer-bg3 {
+        min-height: 465px !important;
+    }
+    .trainer-bg4 {
+        min-height: 465px !important;
+    }
 
 }
 

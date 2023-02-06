@@ -298,14 +298,16 @@ Navbar
 .letter-gap {
     letter-spacing: 2px;
 }
-.setbtn-height{
+
+.setbtn-height {
     height: 53px;
     width: auto;
     padding-left: 48px;
     padding-right: 48px;
 }
+
 /* Follow us container */
-.follow-us-bg{
+.follow-us-bg {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(54, 54, 54, 0.25)), url(images/banner_bg1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -314,47 +316,54 @@ Navbar
     /* height: 420px; */
     min-height: 704px;
 }
-.icon-size{
+
+.icon-size {
     width: 106px;
 }
+
 /* Trainer Container */
-.trainer-bg1{
-    background-image:url(images/trainer_1.jpg);
+.trainer-bg1 {
+    background-image: url(images/trainer_1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y: 50%;
     min-height: 323px;
 }
-.trainer-bg2{
-    background-image:url(images/trainer_2.jpg);
+
+.trainer-bg2 {
+    background-image: url(images/trainer_2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y: 50%;
     min-height: 323px;
 }
-.trainer-bg3{
-    background-image:url(images/trainer_3.jpg);
+
+.trainer-bg3 {
+    background-image: url(images/trainer_3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y: 50%;
     min-height: 323px;
 }
-.trainer-bg4{
-    background-image:url(images/trainer_4.jpg);
+
+.trainer-bg4 {
+    background-image: url(images/trainer_4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y: 50%;
     min-height: 323px;
 }
-.trainer-padding{
+
+.trainer-padding {
     padding-left: 70px;
 }
+
 /* Elite Personal section */
-.elite-bg{
+.elite-bg {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(54, 54, 54, 0.45)), url(images/banner_bg3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -362,6 +371,23 @@ Navbar
     background-position-y: 8%;
     min-height: 704px;
 }
+
+/* Contact Us */
+.contact-padding-large {
+    padding: 0px 182px 0px;
+
+}
+.inner-padding{
+    padding: 52px;
+
+}
+
+.formbg-color {
+    background-color: #f2f2f2;
+    border: none !important;
+    /* border-radius: none !important */
+}
+
 /* Media Query for responsiveness */
 /* media query */
 @media (min-width: 0px) and (max-width: 576px) {
@@ -428,11 +454,20 @@ Navbar
     .button-width-small {
         width: 100%;
     }
+
     .amenities-margin {
         margin-top: 1122px !important;
     }
+
     .amenities-paragrapghpadding {
         padding: 0px 58px 0px !important;
+    }
+    .contact-padding-large {
+        padding: 0px 0px 0px !important;
+        margin-inline: 31px !important;
+    }
+    .inner-padding {
+        padding: 12px !important;
     }
 
 }
@@ -474,23 +509,32 @@ Navbar
     .toggle-visibility {
         visibility: hidden !important;
     }
+
     .amenities-margin {
         margin-top: 1138px !important;
     }
+
     .amenities-paragrapghpadding {
         padding: 0px 10px 0px !important;
     }
+
     .trainer-bg1 {
         min-height: 465px !important;
     }
+
     .trainer-bg2 {
         min-height: 465px !important;
     }
+
     .trainer-bg3 {
         min-height: 465px !important;
     }
+
     .trainer-bg4 {
         min-height: 465px !important;
+    }
+    .contact-padding-large {
+        padding: 0px 0px 0px !important;
     }
 
 }
@@ -503,13 +547,16 @@ Navbar
     .big-text {
         font-size: 51px;
     }
+
     .removemargin-small {
         padding-top: 0px !important;
         margin-top: 0px !important;
     }
+
     .give-padding {
         padding-left: 46px !important;
     }
+
     .width-adjust {
         width: 100% !important;
     }
@@ -531,11 +578,16 @@ Navbar
         margin-top: -146px;
         /* padding-left: 24px; */
     }
+
     .amenities-margin {
         margin-top: 722px !important;
     }
+
     .amenities-paragrapghpadding {
         padding: 0px 31px 0px !important;
+    }
+    .contact-padding-large {
+        padding: 0px 0px 0px !important;
     }
 
 }
@@ -570,8 +622,9 @@ Navbar
     .set-fullbg {
         background-image: none !important;
     }
-   
-
+    .contact-padding-large {
+        padding: 0px 78px 0px !important;
+    }
 
 }
 

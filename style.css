@@ -94,7 +94,7 @@ Navbar
     /* background-image: linear-gradient(rgba(255, 255, 255, 0), #00000079), url(images/banner_2.jpg); */
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/banner_2.jpg);
     background-size: cover;
-    max-height: 907px;
+    min-height: 704px;
     background-position-x: 50%;
     background-position-y: 50%;
 
@@ -304,7 +304,19 @@ Navbar
     padding-left: 48px;
     padding-right: 48px;
 }
-
+/* Follow us container */
+.follow-us-bg{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(54, 54, 54, 0.25)), url(images/banner_bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 8%;
+    /* height: 420px; */
+    min-height: 704px;
+}
+.icon-size{
+    width: 106px;
+}
 /* Media Query for responsiveness */
 /* media query */
 @media (min-width: 0px) and (max-width: 576px) {
@@ -371,7 +383,12 @@ Navbar
     .button-width-small {
         width: 100%;
     }
-
+    .amenities-margin {
+        margin-top: 1122px !important;
+    }
+    .amenities-paragrapghpadding {
+        padding: 0px 58px 0px !important;
+    }
 
 }
 
@@ -412,6 +429,13 @@ Navbar
     .toggle-visibility {
         visibility: hidden !important;
     }
+    .amenities-margin {
+        margin-top: 1138px !important;
+    }
+    .amenities-paragrapghpadding {
+        padding: 0px 10px 0px !important;
+    }
+
 
 }
 
@@ -423,17 +447,13 @@ Navbar
     .big-text {
         font-size: 51px;
     }
-
     .removemargin-small {
         padding-top: 0px !important;
         margin-top: 0px !important;
     }
-
     .give-padding {
         padding-left: 46px !important;
-
     }
-
     .width-adjust {
         width: 100% !important;
     }
@@ -454,6 +474,12 @@ Navbar
         height: 346px;
         margin-top: -146px;
         /* padding-left: 24px; */
+    }
+    .amenities-margin {
+        margin-top: 722px !important;
+    }
+    .amenities-paragrapghpadding {
+        padding: 0px 31px 0px !important;
     }
 
 }
@@ -488,6 +514,7 @@ Navbar
     .set-fullbg {
         background-image: none !important;
     }
+   
 
 
 }

@@ -387,7 +387,14 @@ Navbar
     border: none !important;
     /* border-radius: none !important */
 }
-
+/* Footer */
+.footer-bg{
+    background-color: #333333;
+    /* min-height: 177px; */
+}
+.footer-text{
+    color: #95ccc3;
+}
 /* Media Query for responsiveness */
 /* media query */
 @media (min-width: 0px) and (max-width: 576px) {

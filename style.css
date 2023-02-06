@@ -353,7 +353,15 @@ Navbar
 .trainer-padding{
     padding-left: 70px;
 }
-
+/* Elite Personal section */
+.elite-bg{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(54, 54, 54, 0.45)), url(images/banner_bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 8%;
+    min-height: 704px;
+}
 /* Media Query for responsiveness */
 /* media query */
 @media (min-width: 0px) and (max-width: 576px) {

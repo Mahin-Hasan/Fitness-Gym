@@ -34,7 +34,7 @@ Navbar
 
 .tune-h1 {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 58px;
     text-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
 
 }
@@ -175,6 +175,9 @@ Navbar
 .letter-spacing {
     letter-spacing: 3px;
 }
+.card-bottom-padding{
+    padding-bottom: 385px;
+}
 
 /* 4 dis-aligned cards */
 .setmin-height {
@@ -183,6 +186,9 @@ Navbar
 
 .setsome-margin {
     margin-top: 118px;
+}
+.disaligned-negative-margine{
+    margin-top: -389px;
 }
 
 /* News letter */
@@ -314,7 +320,7 @@ Navbar
     background-position-x: 50%;
     background-position-y: 8%;
     /* height: 420px; */
-    min-height: 704px;
+    /* min-height: 704px; */
 }
 
 .icon-size {
@@ -359,7 +365,7 @@ Navbar
 }
 
 .trainer-padding {
-    padding-left: 70px;
+    padding-left: 12px;
 }
 
 /* Elite Personal section */
@@ -368,7 +374,7 @@ Navbar
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
-    background-position-y: 8%;
+    background-position-y: 50%;
     min-height: 704px;
 }
 
@@ -387,6 +393,11 @@ Navbar
     border: none !important;
     /* border-radius: none !important */
 }
+::placeholder {
+    color: #8e8e8e !important;
+    font-size: 20px !important;
+
+  }
 /* Footer */
 .footer-bg{
     background-color: #333333;
@@ -479,7 +490,14 @@ Navbar
         margin-inline: 31px !important;
     }
     .inner-padding {
-        padding: 12px !important;
+        padding: 14px !important;
+    }
+    .elite-bg{
+        min-height: 523px !important;
+
+    }
+    .submit-small-margin{
+        margin-bottom: 31px;
     }
 
 }

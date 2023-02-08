@@ -127,7 +127,9 @@ Navbar
     background-position-x: 50%;
     background-position-y: 50%;
 } */
-
+.inviting-top-padding{
+    padding-top: 92px;
+}
 .give-padding {
     padding-left: 150px;
 
@@ -203,6 +205,12 @@ Navbar
 .benefitmargin-small {
     margin-bottom: 17px !important;
 
+}
+.newsletter-div-padding{
+    padding: 0px 68px 0px;
+}
+.newsletter-input-height{
+    height: 45px;
 }
 
 /* Membership container */
@@ -323,6 +331,7 @@ Navbar
 }
 
 /* Trainer Container */
+
 .trainer-bg1 {
     background-image: url(images/trainer_1.jpg);
     background-size: cover;
@@ -454,7 +463,7 @@ Navbar
     }
 
     .width-adjust {
-        width: 100% !important;
+        width: 109% !important;
     }
 
     .membership-cards {
@@ -528,6 +537,9 @@ Navbar
     }
     .settop-margin {
         margin-top: 277px !important;
+    }
+    .first-trainer-top-margin-small{
+        margin-top: 50px;
     }
 }
 

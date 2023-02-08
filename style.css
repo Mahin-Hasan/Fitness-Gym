@@ -111,13 +111,6 @@ Navbar
 }
 
 /* Inviting and inspiring */
-.set-image-dimension {
-    width: 414px;
-    height: 449px;
-    margin-top: -146px;
-    /* padding-left: 24px; */
-
-}
 
 /* .invitinfbg-small{
     background-image: url(images/workout_img1-s.jpg);
@@ -127,13 +120,13 @@ Navbar
     background-position-y: 50%;
     
 } */
-.set-fullbg {
+/* .set-fullbg {
     background-image: url(images/workout_img1-s.jpg) !important;
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y: 50%;
-}
+} */
 
 .give-padding {
     padding-left: 150px;
@@ -175,7 +168,8 @@ Navbar
 .letter-spacing {
     letter-spacing: 3px;
 }
-.card-bottom-padding{
+
+.card-bottom-padding {
     padding-bottom: 385px;
 }
 
@@ -187,7 +181,8 @@ Navbar
 .setsome-margin {
     margin-top: 118px;
 }
-.disaligned-negative-margine{
+
+.disaligned-negative-margine {
     margin-top: -389px;
 }
 
@@ -383,7 +378,8 @@ Navbar
     padding: 0px 182px 0px;
 
 }
-.inner-padding{
+
+.inner-padding {
     padding: 52px;
 
 }
@@ -393,19 +389,23 @@ Navbar
     border: none !important;
     /* border-radius: none !important */
 }
+
 ::placeholder {
     color: #8e8e8e !important;
     font-size: 20px !important;
 
-  }
+}
+
 /* Footer */
-.footer-bg{
+.footer-bg {
     background-color: #333333;
     /* min-height: 177px; */
 }
-.footer-text{
+
+.footer-text {
     color: #95ccc3;
 }
+
 /* Media Query for responsiveness */
 /* media query */
 @media (min-width: 0px) and (max-width: 576px) {
@@ -445,7 +445,7 @@ Navbar
         padding-left: 51px !important;
     }
 
-    .set-image-dimension {
+    .set-image-right {
         margin-top: -54px !important;
     }
 
@@ -461,8 +461,16 @@ Navbar
         margin-top: 0px !important;
     }
 
-    .set-fullbg {
+    /* .set-fullbg {
         background-image: none !important;
+    } */
+
+    .set-fullbg-new {
+        height: 350px;
+        background-image: url(images/workout_img1-1.jpg);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
     }
 
     .small-bottom-margin {
@@ -474,7 +482,8 @@ Navbar
         margin-top: 10px;
 
     }
-    .news-small-padding{
+
+    .news-small-padding {
         padding-left: 27px;
     }
 
@@ -485,21 +494,41 @@ Navbar
     .amenities-paragrapghpadding {
         padding: 0px 58px 0px !important;
     }
+
     .contact-padding-large {
         padding: 0px 0px 0px !important;
         margin-inline: 31px !important;
     }
+
     .inner-padding {
         padding: 14px !important;
     }
-    .elite-bg{
+
+    .elite-bg {
         min-height: 523px !important;
 
     }
-    .submit-small-margin{
+
+    .submit-small-margin {
         margin-bottom: 31px;
     }
 
+    .toggle-visibility {
+        visibility: hidden !important;
+    }
+    .set-image-right {
+        background-image: url(images/workout_img2-2.jpg) !important;
+        background-size: cover;
+        height: 275px;
+        /* width: 315px; */
+        margin-top: -146px;
+        background-position-x: center;
+        background-position-y: 4%;
+    
+    }
+    .settop-margin {
+        margin-top: 277px !important;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -521,7 +550,7 @@ Navbar
 
     }
 
-    .set-image-dimension {
+    .set-image-right {
         margin-top: 0px !important;
     }
 
@@ -563,8 +592,28 @@ Navbar
     .trainer-bg4 {
         min-height: 465px !important;
     }
+
     .contact-padding-large {
         padding: 0px 0px 0px !important;
+    }
+
+    .set-fullbg-new {
+        height: 350px;
+        ;
+        background-image: url(images/workout_img1-1.jpg);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+    .set-image-right {
+        background-image: url(images/workout_img2-2.jpg) !important;
+        background-size: cover;
+        height: 435px;
+        /* width: 315px; */
+        margin-top: -146px;
+        background-position-x: center;
+        background-position-y: 4%;
+    
     }
 
 }
@@ -616,8 +665,27 @@ Navbar
     .amenities-paragrapghpadding {
         padding: 0px 31px 0px !important;
     }
+
     .contact-padding-large {
         padding: 0px 0px 0px !important;
+    }
+
+    .set-fullbg-new {
+        height: 475px;
+        background-image: url(images/workout_img1-1.jpg);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: 35%;
+    }
+    .set-image-right {
+        background-image: url(images/workout_img2-2.jpg) !important;
+        background-size: cover;
+        height: 413px;
+        width: 315px;
+        margin-top: -146px;
+        background-position-x: center;
+        background-position-y: center;
+    
     }
 
 }
@@ -632,7 +700,7 @@ Navbar
         height: 375px;
     }
 
-    .set-image-dimension {
+    .set-image-right {
         margin-top: -48px !important;
     }
 
@@ -649,13 +717,30 @@ Navbar
     /* .invitinfbg-small{
         background-image: none !important;
     } */
-    .set-fullbg {
+    /* .set-fullbg {
         background-image: none !important;
-    }
+    } */
     .contact-padding-large {
         padding: 0px 78px 0px !important;
     }
 
+    .set-fullbg-new {
+        height: 481px;
+        background-image: url(images/workout_img1-1.jpg);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+    .set-image-right {
+        background-image: url(images/workout_img2-2.jpg) !important;
+        background-size: cover;
+        height: 465px;
+        width: 377px;
+        margin-top: -146px;
+        background-position-x: center;
+        background-position-y: center;
+    
+    }
 }
 
 @media (min-width: 993px) {
@@ -667,9 +752,32 @@ Navbar
         background-image: none !important;
     }
 
-    .clear-padding-lg {
-        padding-left: 24px !important;
-    }
+    
+
+ 
 }
 
-@media (max-width: 994px) {}
+@media (min-width: 1200px) {
+    .set-fullbg-new {
+        height: 597px;
+        background-image: url(images/workout_img1-1.jpg);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+    .clear-padding-lg {
+        padding-top: 153px;
+        padding-left: 24px !important;
+    }
+    .set-image-right {
+        background-image: url(images/workout_img2-2.jpg) !important;
+        background-size: cover;
+        height: 465px;
+        width: 425px;
+        margin-top: -146px;
+        background-position-x: center;
+        background-position-y: center;
+    
+    }
+    
+}

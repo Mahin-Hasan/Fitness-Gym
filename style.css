@@ -24,7 +24,6 @@ Navbar
 }
 
 .background-image {
-    /* background-image: linear-gradient(rgba(255, 255, 255, 0), #000000d0), url(images/banner_bg.jpg); */
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/banner_bg.jpg);
     background-size: cover;
     max-height: 907px;
@@ -65,7 +64,6 @@ Navbar
 }
 
 .btn-style:hover {
-    /* opacity: 1; */
     color: #111111 !important;
     background-color: white;
     border: 2px solid white;
@@ -91,7 +89,6 @@ Navbar
 
 /* work hard banner */
 .workhard-background {
-    /* background-image: linear-gradient(rgba(255, 255, 255, 0), #00000079), url(images/banner_2.jpg); */
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/banner_2.jpg);
     background-size: cover;
     min-height: 704px;
@@ -111,22 +108,9 @@ Navbar
 }
 
 /* Inviting and inspiring */
-
-/* .invitinfbg-small{
-    background-image: url(images/workout_img1-s.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-x: 50%;
-    background-position-y: 50%;
-    
-} */
-/* .set-fullbg {
-    background-image: url(images/workout_img1-s.jpg) !important;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-x: 50%;
-    background-position-y: 50%;
-} */
+.inviting-paragraph-padding{
+    padding-right: 9rem!important;
+}
 .inviting-top-padding{
     padding-top: 92px;
 }
@@ -140,8 +124,6 @@ Navbar
     font-weight: bold;
     height: 62px;
     width: 213px;
-    /* border: 2px solid #ffc63d; */
-    /* background: transparent; */
     background-color: white;
     border: none;
 }
@@ -159,6 +141,9 @@ Navbar
 
 
 /* 4 cards benefits */
+.four-card-bottom-margin{
+    margin-bottom: -23px;
+}
 .negative-margin {
     margin-top: -287px;
 }
@@ -217,9 +202,6 @@ Navbar
 .membership-background {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/banner_3.jpg);
     background-size: cover;
-    /* filter: brightness(0.65); */
-    /* background-position-x: 50%;
-    background-position-y: 50%; */
     height: 524px;
     margin-top: 0;
     margin-bottom: 0;
@@ -228,8 +210,6 @@ Navbar
 
 .membership-cards {
     height: 421px;
-    /* width: 304px; */
-    /* margin-bottom: 50px; */
     margin-top: 64px;
 }
 
@@ -322,8 +302,6 @@ Navbar
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y: 8%;
-    /* height: 420px; */
-    /* min-height: 704px; */
 }
 
 .icon-size {
@@ -396,7 +374,6 @@ Navbar
 .formbg-color {
     background-color: #f2f2f2;
     border: none !important;
-    /* border-radius: none !important */
 }
 
 ::placeholder {
@@ -408,7 +385,6 @@ Navbar
 /* Footer */
 .footer-bg {
     background-color: #333333;
-    /* min-height: 177px; */
 }
 
 .footer-text {
@@ -470,10 +446,6 @@ Navbar
         margin-top: 0px !important;
     }
 
-    /* .set-fullbg {
-        background-image: none !important;
-    } */
-
     .set-fullbg-new {
         height: 315px;
         background-image: url(images/workout_img1-1.jpg);
@@ -529,7 +501,6 @@ Navbar
         background-image: url(images/workout_img2-2.jpg) !important;
         background-size: cover;
         height: 275px;
-        /* width: 315px; */
         margin-top: -146px;
         background-position-x: center;
         background-position-y: 4%;
@@ -573,10 +544,6 @@ Navbar
     .membership-cards {
         margin-top: 0px !important;
     }
-
-    /* .set-fullbg{
-        background-image: none !important;
-    } */
     .toggle-visibility {
         visibility: hidden !important;
     }
@@ -621,7 +588,6 @@ Navbar
         background-image: url(images/workout_img2-2.jpg) !important;
         background-size: cover;
         height: 435px;
-        /* width: 315px; */
         margin-top: -146px;
         background-position-x: center;
         background-position-y: 4%;
@@ -656,9 +622,7 @@ Navbar
         margin-top: 0px;
     }
 
-    /* .set-fullbg{
-        background-image: none !important;
-    } */
+
     .toggle-visibility {
         visibility: hidden !important;
     }
@@ -667,7 +631,6 @@ Navbar
         width: 307px;
         height: 346px;
         margin-top: -146px;
-        /* padding-left: 24px; */
     }
 
     .amenities-margin {
@@ -725,13 +688,6 @@ Navbar
         height: 385px !important;
         width: 303px !important;
     }
-
-    /* .invitinfbg-small{
-        background-image: none !important;
-    } */
-    /* .set-fullbg {
-        background-image: none !important;
-    } */
     .contact-padding-large {
         padding: 0px 78px 0px !important;
     }
@@ -756,17 +712,9 @@ Navbar
 }
 
 @media (min-width: 993px) {
-    /* .invitinfbg-small{
-        background-image: none !important;
-    } */
-
     .set-fullbg {
         background-image: none !important;
     }
-
-    
-
- 
 }
 
 @media (min-width: 1200px) {
